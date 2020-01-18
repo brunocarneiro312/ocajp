@@ -14,7 +14,7 @@ public class TiposPrimitivos {
      * ----------------------------------------
      * Tipo    | Tamanho
      * ------------------
-     * boolean | 8 bits
+     * boolean | ? bits
      * ------------------
      * byte    | 8 bits
      * ------------------
