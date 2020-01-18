@@ -49,6 +49,7 @@ public class TiposPrimitivos {
      *
      * ¹ A conversão de tipo implícito ocorre quando se atribui uma variável de valor menor para uma variável de valor maior.
      * ² byte < (short | char) < int < float < long < double (o da esquerda é menor do que o da direita)
+     * ³ Esse processo é conhecido como "widening" ou "upcasting"
      */
     private void implicitTypeCasting() {
 
@@ -63,6 +64,7 @@ public class TiposPrimitivos {
      * ¹ A conversão de tipo explícito deve ocorrer quando se está tentando converter um tipo primitivo maior para um tipo menor.
      * ² Ao realizar a conversão de tipo explícita, o programador está dizendo ao compilador que aceita a perda de precisão oriunda desse tipo de conversão.
      * ³ Ao tentar realizar uma conversão de um tipo maior para um tipo menor sem que haja conversão explícita, há erro de compilação.
+     * ₄ Esse processo é conhecido como "narrowing" ou "downcasting"
      */
     private void explicitTypeCasting() {
 
