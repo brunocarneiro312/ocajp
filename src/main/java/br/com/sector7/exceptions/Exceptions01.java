@@ -17,7 +17,7 @@ import java.io.*;
  *                     |                                                       |
  *                 Exception                                                 Error
  *                     |                                                       |
- *            -----------------------------------------------             (Erros que não podem ser recuperados [Runtime Errors])
+ *            -----------------------------------------------  (Erros que não podem ser recuperados [Runtime Errors])
  *            |                                             |
  *       RuntimeException (unchecked)        (Checked Exceptions. Ex: IOException, FileNotFoundException, etc)
  *            |
