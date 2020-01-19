@@ -3,6 +3,13 @@ package br.com.sector7.exceptions;
 import java.io.*;
 
 /**
+ * -----------------------------------------------------------------------------------------------------------------
+ * Checked Exceptions: Exceptions checadas em tempo de compilação. Devem ser tratadas ou lançadas.
+ * Unchecked Exceptions: Exceptions que podem acontecer em tempo de execução. Não precisam ser tratadas ou lançadas.
+ * Partial Checked Exceptions: Exceptions que possuem checked e unchecked exceptions filhas. Existem somente duas:
+ *    - Throwable
+ *    - Exception
+ *
  * Hieraquia de exceptions:
  *                                    Throwable
  *                                        |
@@ -15,7 +22,8 @@ import java.io.*;
  *       RuntimeException (unchecked)        (Checked Exceptions. Ex: IOException, FileNotFoundException, etc)
  *            |
  *     (ClassCastException | IndexOutOfBoundsException | etc)
- *
+ * -----------------------------------------------------------------------------------------------------------------
+ * @author brunocarneiro
  */
 public class Exceptions01 {
 
